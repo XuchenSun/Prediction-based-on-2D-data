@@ -28,6 +28,20 @@ async function getData() {
 }
 #    <p>Step2:Create model with three dense layer</p>
 
+function createModel() {
+    // Create a sequential model
+    const model = tf.sequential();
+
+    // Add a single input layer
+    model.add(tf.layers.dense({inputShape: [1], units: 1, useBias: true}));
+
+    // Add an output layer
+    model.add(tf.layers.dense({units: 1, useBias: true}));
+    model.add(tf.layers.dense({units: 1, useBias: true}));
+
+    return model;
+}
+
 #    <p>Step3: Prepare the data for training</p>
 
 #    <p>Step4: define the method of training for built model</p>
