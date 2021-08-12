@@ -1,5 +1,5 @@
 # Prediction-based-on-2D-data
-!()[]
+!()[https://raw.githubusercontent.com/XuchenSun/page/master/images/prediction.png]
 <p>Model: 3 dense layers</p>
     <p>Database: Google carsData.json</p>
     <p>Library: Tensorflow.js</p>
