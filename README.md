@@ -17,4 +17,4 @@
 
 #    <p>Step6: run algorithm</p>
 
-    <p>Some codes come from TensorFlow.js and I improve the performance of prediction by adding a dense layer, increasing times of epochs and batch size</p>
+    Some codes come from TensorFlow.js and I improve the performance of prediction by adding a dense layer, increasing times of epochs and batch size
